@@ -1,15 +1,15 @@
-*Tagesschau Wordcloud Generator
+* Tagesschau Wordcloud Generator
 
-**Welcome to the Tagesschau Wordcloud Generator!
+** Welcome to the Tagesschau Wordcloud Generator!
 
 This fun little python project pulls data from the Tagesschau API[link], saves it to
 a json file and (optionally) displays a wordcloud from that data.
 
 By default, the whole server reply is saved to the json. Relevant columns for further
 work with the data are "topline", "title", and "firstSentence". If you're interested 
-in doing ML-type things, the data does come with the tags supplied by Tagesschau. But
-beware, they're only saved to a single pandas Dataframe column as a dict in the 
-"tag":<tag> format, so you'll have to de-clutter it a little bit.
+in doing ML-type things, the data does come with the tags supplied by Tagesschau. But beware, 
+they're only saved to a single pandas Dataframe column as a dict in the  "tag":<tag> format, 
+so you'll have to de-clutter it a little bit.
 
 The average time duration captured by the data in the files is about 6 days. If you 
 want to do a longitudal study, remember to get new data frequently.
@@ -18,14 +18,14 @@ Once you downloaded the files, you'll be free to do whatever you want whith them
 as much as you please but please keep in mind the Tagesschau API rate limit of max
 1 query every minute.
 
-**Installation:
+** Installation:
 
-***Dependencies:
-    Python:             3.11.9
-    Pip:                23.0.1
-    (python3.11-venv)   3.11.2-6
+*** Dependencies:
+    . Python:             3.11.9
+    . Pip:                23.0.1
+    . (python3.11-venv)   3.11.2-6
 
-***Install:
+*** Install:
 
     1. Download the files from github
     Ideally, you download the files to their own directory
